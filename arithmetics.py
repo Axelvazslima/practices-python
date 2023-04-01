@@ -455,3 +455,20 @@ def findMiddleValue():
     else:
         middle = ages[iMiddle]
     print(middle)
+
+def intervalTwo():
+    print("""First input how many numbers you want, like input: 3, sou add 3 more inputs separated (input, enter, input and etc.)
+This code tells you how many of these numbers are in the interval of [10, 20].""")
+    N = int(input())
+    X = [int(input()) for k in range(N)]
+    In = 0
+    Out = 0
+    for j in X:
+        if j > -10**7 and j < 10**7:
+            if j >= 10 and j <= 20:
+                In+=1
+            else:
+                Out +=1
+    print(f"{In} in\n{Out} out")
+
+intervalTwo()
