@@ -10,6 +10,8 @@ arithmetics: A file that contains codes related to arithmetic operations, includ
 
 data_structures: A file that contains codes related to working with strings, arrays, and dictionaries. This includes various functions and operations related to these data structures, such as string manipulation, array sorting and filtering, and dictionary iteration and comprehension.
 
+> There will be more specific "Read Me" files in each respective directory to explain them more detailed
+
 ## Purpose
 
 The purpose of this collection is to showcase my progress in programming with Python and demonstrate my ability to work with different data structures and programming concepts. While some of the codes may be simple, they reflect my evolution as a programmer and my dedication to expanding my knowledge and skills.
