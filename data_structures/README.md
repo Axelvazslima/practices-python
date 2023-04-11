@@ -1,1 +1,8 @@
-This is a collection of Python codes that shows my evolution in programming with Python. While a lot of my progress is already reflected in the "arithmetics.py" file, which focuses on math-related programming, this collection will focus on working with strings, arrays, and dictionaries. The code will include various functions and operations related to these data structures, such as string manipulation, array sorting and filtering, and dictionary iteration and comprehension. Although I am still learning and exploring these structures, I'm excited to continue building my skills and tackling complex programming problems. I hope this collection of codes gives you an idea of my progress in this area, and I look forward to expanding my knowledge and expertise in the future.
+# Python Data Structure Repository
+Welcome to my Python data structure repository! This collection of codes showcases my progress as I learn about different data structures and algorithms in Python.
+
+## Purpose
+The purpose of this repository is to showcase my learning and understanding of different data structures and algorithms in Python. While some of the codes may be simple, they reflect my dedication to expanding my knowledge and skills.
+
+## Future Updates
+I plan to continue expanding this repository and adding more codes related to other data structures and algorithms.
