@@ -1,5 +1,5 @@
 def odd_numbers():
-    print("You will input a number (1 <= int <= 1000) and the programm will return you a list of all odd numbers before or equal that")
+    print("You will input a number (1 <= int <= 1000) and the program will return you a list of all odd numbers before or equal that")
     x = int(input("Input a number: "))
 
     cond = x in range(1, 1001)

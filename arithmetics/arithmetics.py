@@ -393,7 +393,7 @@ tellerEvenOdd()
 
 
 def gpdVal():
-    print("Input two GPD variations -> negative is decrease, positive is increase. The programm will convert it into percentages, dont worry about it")
+    print("Input two GPD variations -> negative is decrease, positive is increase. The program will convert it into percentages, dont worry about it")
     gdpVar = input("Variation of GDP: ").split()
     gdp = [round(float(i), 2) for i in gdpVar]
     F1 = gdp[0]
@@ -456,6 +456,7 @@ def findMiddleValue():
         middle = ages[iMiddle]
     print(middle)
 
+
 def intervalTwo():
     print("""First input how many numbers you want, like input: 3, sou add 3 more inputs separated (input, enter, input and etc.)
 This code tells you how many of these numbers are in the interval of [10, 20].""")
@@ -466,12 +467,14 @@ This code tells you how many of these numbers are in the interval of [10, 20].""
     for j in X:
         if j > -10**7 and j < 10**7:
             if j >= 10 and j <= 20:
-                In+=1
+                In += 1
             else:
-                Out +=1
+                Out += 1
     print(f"{In} in\n{Out} out")
 
+
 intervalTwo()
+
 
 def evenBetweenFiveNumbers():
     print("""Input five numbers (int > enter > 5 times) then the code will tell you how many of this 5 numbers are even""")
@@ -481,5 +484,6 @@ def evenBetweenFiveNumbers():
         if j % 2 == 0:
             even += 1
     print(f"{even} valores pares")
+
 
 evenBetweenFiveNumbers()
