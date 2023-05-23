@@ -15,7 +15,7 @@ def append_reversed(num):
 
 def main(l1, l2):
     print(
-        f"This codes receives two reversed lists of integers and concats them ([1, 3, 2] = 231). Theses numbers are added and the function returns this calculation in a reversed list: Each digit is a list element (2203 = [3, 0, 2, 2]).\nInspired by LeetCode's question -> 2. Add two numbers"
+        f"This codes receives two reversed lists of integers and concats them ([1, 3, 2] = 231). Theses numbers are added and the function returns this calculation in a reversed list: Each digit is a list element (2203 = [3, 0, 2, 2]).\nInspired by LeetCode's question -> '2. Add two numbers'"
     )
     num_l1 = concat_nums(l1)
     num_l2 = concat_nums(l2)
