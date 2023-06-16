@@ -1,0 +1,12 @@
+- input: |
+    3 1 0 4 -5
+  output: |
+    maior soma: 5
+    tríade: posições 1, 2 e 3
+
+- input: |
+    1 2 3 1 1 3 1 2
+  output: |
+    maior soma: 6
+    tríade: posições 5, 6 e 7
+

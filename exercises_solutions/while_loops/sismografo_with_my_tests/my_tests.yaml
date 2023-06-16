@@ -1,0 +1,18 @@
+- input: |
+    8.0
+    10.1
+  output: |
+    m = 8.0 (média = 8.0)
+    m = 10.1 (média = 9.1)
+    ALERTA: limite de sismo atingido!
+    número de medições: 2
+
+
+- input: |
+    10.1
+  output: |
+    m = 10.1 (média = 10.1)
+    ALERTA: limite de sismo atingido!
+    número de medições: 1
+
+
