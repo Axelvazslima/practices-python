@@ -14,7 +14,7 @@ class Matrix:
         new_matrix = []
         for i in range(len(matrix_one)):
             new_list = []
-            for j in range(len(matrix_two)):
+            for j in range(len(matrix_two[i])):
                 matrix_cur = matrix_one[i][j] + matrix_two[i][j]
                 new_list.append(matrix_cur)
             new_matrix.append(new_list)
